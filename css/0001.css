@@ -1,0 +1,257 @@
+/* 通用 */
+
+html {background-color: rgb(255, 255, 255);}
+
+body {min-width: 1280px;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color:rgba(169, 169, 169, 0.25);
+}
+
+
+header {background-color:rgb(62, 0, 88);
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+
+header nav {width: 980px;
+    height: 80px;
+    margin: 0 auto;    
+    overflow: hidden;
+}
+
+header nav p {float: left;
+    font-size: 30px;
+    color:rgb(240, 248, 255);
+    margin-top: 41px;
+    padding-bottom: 5px;
+}
+
+header nav a {display: block;
+    float: right;    
+    font-family: "宋体";
+    font-size: 14px;
+    margin-top: 60px;
+    margin-left: 28px;
+    color: rgb(240, 248, 255);
+   text-decoration: none;
+}
+
+header img {position: absolute;
+    left: 1240px;
+    top: 46px;
+}
+
+footer {background-color:rgb(105, 105, 105);
+    width: 1280px;
+    margin: 0 auto;
+}
+
+footer nav {width: 1280px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 1px;
+    line-height: 40px;
+}
+
+footer nav a {color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#info {width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -0px;
+    background-color: rgb(0, 0, 0);
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    text-align: center;
+}
+
+#info dl{float: left;
+    margin-left: 160px;
+    margin-bottom: 70px;
+}
+
+#info dt{margin: 20px 0 20px 0px;
+    font-size: 14px;
+}
+
+#info dd {position: relative;
+    left: -34px
+}
+
+#info a {color: rgb(255, 255, 255);
+}
+
+#copyright {display: block;
+    clear: both;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* index */
+
+#img1 {width: 100%;
+}
+
+.main {width: 980px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {font-size: 14px;
+    color: rgb(240, 248, 255);
+    float: right;
+    padding: 10px 10px 10px 12px;
+    margin-top: 0px
+}
+
+#top p {font-size: 12px;
+    color: rgb(240, 248, 255);
+    line-height: 1.5;
+    float: right;
+    margin-top: -11px;
+    padding: 0 10px 10px 30px;
+}
+
+#top {float: right;
+    background-image: linear-gradient(to bottom,rgba(255,255,255,0.3)0%,rgba(255,255,255,0.2)75%,rgba(255,255,255,0)100%);
+    width: 360px;
+    margin-top: -134px;
+}
+
+#wrap{overflow: hidden;
+}
+
+#left,#mid,#right {width: 320px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    padding-bottom: 5000px;
+    margin-bottom: -5000px;
+}
+
+#wrap img {height: 180px;
+    width: 300px;
+    margin: 10px;
+}
+
+#mid {margin-left: 10px;
+    margin-right: 10px;
+}
+
+#wrap p {margin: 0px 30px 15px 30px;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+#bottom {text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    width: 980px;
+}
+
+#bottom img{width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    position: relative;
+    top: -30px;
+}
+
+#bottom h2 {font-family: "Century Gothic";
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: 17px;
+}
+
+#bottom p {width: 600px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+/* blog */
+
+#blog-main{width: 1030px;
+    margin: 0 auto;
+    position: relative;
+    left: -25px;
+    overflow:hidden;
+}
+
+.blog-article {width: 680px;
+    float: left;
+}
+
+.blog-article section{background-color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    margin-top: 15px;
+    font-size: 12px;
+    position: relative;
+    left: 50px;
+    margin-bottom: 10px;
+}
+
+.blog-article section h2{font-size: 16px;
+    color: rgb(139, 0, 139);
+}
+
+.blog-article section h4{font-size: 12px;}
+
+.label1 {width: 50px;
+    height: 30px;
+    background-color: rgb(102, 0, 102);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    left: -50px;
+}
+
+.label2 {width: 50px;
+    height: 30px;
+    background-color: rgba(131, 0, 131, 0.61);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 55px;
+    left: -50px;
+}
+
+.blog-article nav a {display: inline-block;
+    padding: 10px 15px;
+    margin-bottom: 300px;
+    position: relative;
+    left: 130px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.blog-article nav a:visited {color: rgb(0,0,0);
+}
+
+.page, .turn {background-color: rgb(255, 255, 255);
+}
+
+.current {background-color: rgb(139, 0, 139);
+    color: rgb(255, 255, 255);
+}
+
+aside {width: 280px;
+    float: right;
+}
+
